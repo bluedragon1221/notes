@@ -1,3 +1,6 @@
-# bluedragon1221.github.io
+# Hello
 
-Welcome to my blog / tutorial space / whatever I want it to be.
+This is where I hold my content.
+
+(Arch Install Guide)[pages/arch-install.md]
+
