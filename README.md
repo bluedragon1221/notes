@@ -2,4 +2,6 @@
 
 This is where I hold my content.
 
-[Arch Install Guide](pages/arch-install.md)
+Linux
+* [Arch Install Guide](pages/arch-install.md)
+* [Installing and Configuring ZSH](pages/zsh.md)
