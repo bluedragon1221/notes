@@ -112,7 +112,8 @@ pacstrap /mnt base linux linux-firmware \
 Now we set up the system we created.
 
 ### Fstab
-Generate an `fstab` file using `genfstab`. The `-L` flag only works if you labeled your partitions.
+Generate an `fstab` file using `genfstab`. Make sure to pass the `-U` flag.
+
 ```
 genfstab -U /mnt >> /mnt/etc/fstab
 ```

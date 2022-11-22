@@ -20,4 +20,4 @@ With vanilla JavaScript, this is a lot easier.
 
 ## What I do instead
 Instead of using these paridigm-inducing frameworks, I revert to a more manual approach.
-This may mean importing cdn urls or cloning and sourcing git repos, but I like how I know what I have done to my system.
+This may mean importing cdn urls or cloning and sourcing git repos, but I like the control I have over my system.
