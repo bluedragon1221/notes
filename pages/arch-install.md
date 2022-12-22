@@ -165,7 +165,7 @@ passwd
 ### Setup Grub Boot Loader
 Use these commands to setup and install grub:
 ```
-grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
+grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
