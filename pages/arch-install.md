@@ -103,9 +103,10 @@ pacstrap /mnt base linux linux-firmware
 You can add any other packages to this command. I generally add my text editor of choice, networking tools, and grub as well.
 ```
 pacstrap /mnt base linux linux-firmware \
-                 micro xclip \
+                 vim \
                  networkmanager \
-                 efibootmgr grub
+                 efibootmgr grub \
+                 zsh
 ```
 
 ## Configuration
@@ -136,7 +137,11 @@ hwclock --systohc
 ```
 
 ### Set Locale
-Edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8` Generate the locales by running: 
+If this part is a bit confusing, here's a link to a video that explains it. [link](https://youtu.be/68z11VAYMS8?t=711)
+
+Edit `/etc/locale.gen` and uncomment `en_US.UTF-8 UTF-8`.
+
+Generate the locales by running: 
 ```
 locale-gen
 ```
@@ -149,11 +154,10 @@ LANG=en_US.UTF-8
 ### Change hostname
 Use this command to write your new hostname to `/etc/hostname`:
 ```
-cat "THIS_IS_YOUR_HOSTNAME" >> /etc/hostname
+echo "THIS_IS_YOUR_HOSTNAME" >> /etc/hostname
 ```
 
-### Root Password
-Set the root password with this command:
+### Set Root Password
 ```
 passwd
 ```
@@ -165,5 +169,45 @@ grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
+## Create a User
+Assuming you don't want to use the root account the whole time, we need to setup a user.
+
+### Setup `sudo`
+`sudo` does not come by default on our arch installation. We need to install it and change it's configuration.
+```
+pacman -S sudo
+EDITOR=vim visudo
+```
+
+Uncomment the line that says `:wheel ALL=(ALL) ALL`.
+
+### ...or `doas`
+[`opendoas`](https://wiki.archlinux.org/title/Doas) is the pseudo-sudo (no pun intended) used on openbsd. Here's how you install it.
+```
+pacman -S doas
+vim /etc/doas.conf
+```
+
+In your `doas.conf`, tell `doas` to allow all users in group wheel to execute commands.
+```
+permit persist :wheel
+```
+
+### Create the User
+Run this command to create a user.
+* `-a`: add a home directory
+* `-G`: add to `wheel` group
+* `-s`: give us `zsh`
+* USERNAME
+```
+useradd -m -G wheel -s /bin/zsh USERNAME
+```
+
+### Set User Password
+Just like the root password.
+```
+passwd USERNAME
+```
+
 ## Done
-Now you can reboot, and your left with a blank system. Good Luck!
+Now you can reboot. Good Luck!
