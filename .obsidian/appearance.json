@@ -1,0 +1,17 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "cssTheme": "Blue Topaz",
+  "interfaceFontFamily": "Inter Nerd Font",
+  "textFontFamily": "Inter Nerd Font",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "outline",
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "animations",
+    "hider",
+    "external_link_hover"
+  ]
+}
