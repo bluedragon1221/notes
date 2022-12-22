@@ -113,10 +113,10 @@ pacstrap /mnt base linux linux-firmware \
 Now we set up the system we created.
 
 ### Fstab
-Generate an `fstab` file using `genfstab`. Make sure to pass the `-U` flag.
+Generate an `fstab` file using `genfstab`. Only use `-L` if you used labels in the [formatting and partitioning](#partition-and-format-the-disk) section.
 
 ```
-genfstab -U /mnt >> /mnt/etc/fstab
+genfstab -L /mnt >> /mnt/etc/fstab
 ```
 
 ### Chroot
