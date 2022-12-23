@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a4ab01c1a41848cd",
+        "id": "753a36df09a6ad0a",
         "type": "tabs",
         "children": [
           {
-            "id": "59f073f0f0b965e6",
+            "id": "7cf68fec6845fca3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,6 +56,7 @@
       {
         "id": "586ed04fd9988c66",
         "type": "tabs",
+        "dimension": 45.951219512195124,
         "children": [
           {
             "id": "758707def6eb85a1",
@@ -110,37 +111,13 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "df7cb013fe016836",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "61642784f2d721a2",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Home.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ]
       },
       {
         "id": "9ba51da35bcd51f5",
         "type": "tabs",
+        "dimension": 54.04878048780488,
         "children": [
           {
             "id": "a1c894969cf9c2a5",
@@ -151,20 +128,12 @@
                 "file": "Home.md"
               }
             }
-          },
-          {
-            "id": "02f854cb085d1719",
-            "type": "leaf",
-            "state": {
-              "type": "Strange New Worlds",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 262.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,17 +147,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "59f073f0f0b965e6",
+  "active": "7cf68fec6845fca3",
   "lastOpenFiles": [
-    "Linux/Git/Setup Git SSH.md",
+    "Arch Install Guide.md",
     "Home.md",
-    "Linux/Linux.md",
-    "Linux/Gum for Shell Scripts.md",
-    "Linux/Emacs Shortcuts.md",
     "Linux/Clipboard.md",
+    "Frameworks.md",
+    "apps23.md",
+    "README.md",
+    "Untitled.md",
     "Free and Open Source.md",
-    "Untitled.canvas",
-    "Youtube Playlist (with URL).md",
-    "Linux/Scraping Web Content.md"
+    "Linux/Git/Setup Git SSH.md",
+    "Linux/Linux.md"
   ]
 }

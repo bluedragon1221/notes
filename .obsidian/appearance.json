@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "theme": "obsidian",
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Things",
   "interfaceFontFamily": "Inter Nerd Font",
   "textFontFamily": "Inter Nerd Font",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
@@ -12,6 +12,7 @@
     "dashboard-ReadLineLength",
     "animations",
     "hider",
-    "external_link_hover"
+    "external_link_hover",
+    "outline-style"
   ]
 }

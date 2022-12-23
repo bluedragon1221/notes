@@ -26,5 +26,13 @@
       ],
       "key": "F"
     }
+  ],
+  "text-snippets-obsidian:text-snippets": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": " "
+    }
   ]
 }
