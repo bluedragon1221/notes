@@ -1,0 +1,19 @@
+{
+  "snippets_file": "dv : ```dataview$nl$$end$$nl$```\nsh : ```sh$nl$$end$$nl$```\n- : ---$nl$$end$$nl$---\nh1 : #\nh2 : ##\nh3 : ###\n",
+  "snippets": [
+    "dv : ```dataview$nl$$end$$nl$```",
+    "sh : ```sh$nl$$end$$nl$```",
+    "- : ---$nl$$end$$nl$---",
+    "h1 : #",
+    "h2 : ##",
+    "h3 : ###"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}
