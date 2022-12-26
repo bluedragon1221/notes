@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Linux/Linux.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5796b463abc6e87d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Trash.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "Linux/Trash.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Linux/Trash.md"
               }
             }
           }
@@ -162,17 +176,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "91e3c21149c587d4",
+  "active": "a7f0c4c8ca0abc6b",
   "lastOpenFiles": [
-    "README.md",
-    "Arch Install Guide.md",
+    "_templates/Tutorial.md",
+    "Linux/Trash.md",
+    "Linux/Linux.md",
+    "Linux/Arch Install Guide.md",
     "Home.md",
+    "README.md",
     "Linux/Clipboard.md",
     "Frameworks.md",
     "apps23.md",
-    "Untitled.md",
-    "Free and Open Source.md",
-    "Linux/Git/Setup Git SSH.md",
-    "Linux/Linux.md"
+    "Free and Open Source.md"
   ]
 }

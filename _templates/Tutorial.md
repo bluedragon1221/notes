@@ -1,5 +1,4 @@
 ---
-tags:
 type: tutorial
 description: 
 ---
@@ -8,5 +7,3 @@ description:
 # Setup
 
 # Bonus
-
-# Flashcards

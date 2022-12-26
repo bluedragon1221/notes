@@ -1,15 +1,16 @@
 {
-  "snippets_file": "dv : ```dataview$nl$$end$$nl$```\nsh : ```sh$nl$$end$$nl$```\n- : ---$nl$$end$$nl$---\nh1 : #\nh2 : ##\nh3 : ###\n",
+  "snippets_file": "dv : ```dataview\\n$end$\\n```\nsh : ```sh\\n$end$\\n```\nsh# : ```sh\\n### $end$ ###\\n\\n```\n- : ---\\n$end$\\n---\nh1 : #\nh2 : ##\nh3 : ###\n",
   "snippets": [
-    "dv : ```dataview$nl$$end$$nl$```",
-    "sh : ```sh$nl$$end$$nl$```",
-    "- : ---$nl$$end$$nl$---",
+    "dv : ```dataview\\n$end$\\n```",
+    "sh : ```sh\\n$end$\\n```",
+    "sh# : ```sh\\n### $end$ ###\\n\\n```",
+    "- : ---\\n$end$\\n---",
     "h1 : #",
     "h2 : ##",
     "h3 : ###"
   ],
   "endSymbol": "$end$",
-  "newlineSymbol": "$nl$",
+  "newlineSymbol": "\\n",
   "stopSymbol": "$tb$",
   "pasteSymbol": "$pst$",
   "useTab": true,
