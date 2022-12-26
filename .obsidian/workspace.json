@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "753a36df09a6ad0a",
+        "id": "534116f3f4200ac6",
         "type": "tabs",
         "children": [
           {
-            "id": "7cf68fec6845fca3",
+            "id": "91e3c21149c587d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -111,14 +111,30 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "121ba37d61b70324",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ]
       },
       {
         "id": "9ba51da35bcd51f5",
         "type": "tabs",
-        "dimension": 54.04878048780488,
+        "dimension": 54.048780487804876,
         "children": [
+          {
+            "id": "c39381ceddca35c8",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
+          },
           {
             "id": "a1c894969cf9c2a5",
             "type": "leaf",
@@ -133,13 +149,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 286.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -147,14 +162,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7cf68fec6845fca3",
+  "active": "91e3c21149c587d4",
   "lastOpenFiles": [
+    "README.md",
     "Arch Install Guide.md",
     "Home.md",
     "Linux/Clipboard.md",
     "Frameworks.md",
     "apps23.md",
-    "README.md",
     "Untitled.md",
     "Free and Open Source.md",
     "Linux/Git/Setup Git SSH.md",
