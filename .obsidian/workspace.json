@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "534116f3f4200ac6",
+        "id": "97b0b7471be92eff",
         "type": "tabs",
         "children": [
           {
-            "id": "91e3c21149c587d4",
+            "id": "ffa3bdb78d760426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Home.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "5796b463abc6e87d",
+            "id": "07e9625ca5a4562b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Trash.md",
+                "file": "T'was the Night Before Linux.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Trash.md",
+                "file": "T'was the Night Before Linux.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -133,8 +133,34 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "e15e7a318fff8ddd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "79f07e9edcaae5bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "T'was the Night Before Linux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "9ba51da35bcd51f5",
@@ -142,28 +168,28 @@
         "dimension": 54.048780487804876,
         "children": [
           {
+            "id": "a1c894969cf9c2a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "T'was the Night Before Linux.md"
+              }
+            }
+          },
+          {
             "id": "c39381ceddca35c8",
             "type": "leaf",
             "state": {
               "type": "Strange New Worlds",
               "state": {}
             }
-          },
-          {
-            "id": "a1c894969cf9c2a5",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Linux/Trash.md"
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,17 +202,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a7f0c4c8ca0abc6b",
+  "active": "07e9625ca5a4562b",
   "lastOpenFiles": [
-    "_templates/Tutorial.md",
+    "Home.md",
+    "HTML + Emmet.md",
     "Linux/Trash.md",
+    "_templates/Tutorial.md",
     "Linux/Linux.md",
     "Linux/Arch Install Guide.md",
-    "Home.md",
     "README.md",
     "Linux/Clipboard.md",
     "Frameworks.md",
-    "apps23.md",
-    "Free and Open Source.md"
+    "apps23.md"
   ]
 }
