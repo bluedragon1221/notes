@@ -1,6 +1,6 @@
 ---
 description: Make your shell scripts "glamorous" with `gum`
-tags: Linux, flashcards
+tags: Linux
 type: tutorial
 ---
 
@@ -29,7 +29,7 @@ gpgkey=https://repo.charm.sh/yum/gpg.key' | sudo tee /etc/yum.repos.d/charm.repo
 sudo yum install gum
 ```
 
-# Command Line Arguments
+# Usage
 ## Gum `input`
 This is used for quick, one line inputs.
 

@@ -1,20 +1,22 @@
 ---
 type: tutorial
-description: 
+description: Setup a trashcan and never loose another file
 ---
-# Prerequisite
+Recently, I deleted my whole notes directory and had to restore from a backup. In an attempt to never to this again, I created a trash system.
 
 # Setup
-
+Create a directory that will serve as your trashcan.
 ```sh
 mkdir ~/.trash
 ```
 
+Create a bash function that will override the default `rm` command.
 ```sh
+### ~/.zshrc ###
 rm() {
 	mv $1 ~/.trash/
 }
-
 ```
 
-# Bonus
+# Todo
+* `rm -rf` override

@@ -2,8 +2,8 @@
 type: tutorial
 description: 
 ---
-# Prerequisite
+# Installation
 
-# Setup
+# Usage
 
 # Bonus

@@ -1,9 +1,7 @@
 ---
 description: Setup dotfiles using a git repo in your `$HOME`
-tags: git
 type: tutorial
 ---
-
 # Prerequisite
 [[Setup Git SSH]].
 
@@ -20,6 +18,7 @@ Create a `.gitignore` file with the following contents:
 ```
 This makes all files and folders in the git repo ignored by default.
 
+# Usage
 ## Adding Files
 To add a file, force `git` to bypass the `.gitignore` file:
 ```sh

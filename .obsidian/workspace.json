@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "97b0b7471be92eff",
+        "id": "08813b4159239ee1",
         "type": "tabs",
         "children": [
           {
-            "id": "ffa3bdb78d760426",
+            "id": "1d45fdcd4480881e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Free and Open Source.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,64 @@
             }
           },
           {
-            "id": "07e9625ca5a4562b",
+            "id": "7d0fe1ad21b16974",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "T'was the Night Before Linux.md",
+                "file": "Linux/Linux.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84bb0d921ed8a23e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f36ee0eabf5a403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Linux.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc6b81a7117cc471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Arch Install Guide.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd09477b28b30a63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Customizing ZSH.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -78,7 +130,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "T'was the Night Before Linux.md",
+                "file": "Customizing ZSH.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -127,40 +179,15 @@
             }
           },
           {
-            "id": "121ba37d61b70324",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "e15e7a318fff8ddd",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "79f07e9edcaae5bf",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "T'was the Night Before Linux.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "9ba51da35bcd51f5",
@@ -173,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "T'was the Night Before Linux.md"
+                "file": "Customizing ZSH.md"
               }
             }
           },
@@ -189,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,17 +229,17 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "07e9625ca5a4562b",
+  "active": "e15e7a318fff8ddd",
   "lastOpenFiles": [
-    "Home.md",
-    "HTML + Emmet.md",
-    "Linux/Trash.md",
-    "_templates/Tutorial.md",
-    "Linux/Linux.md",
     "Linux/Arch Install Guide.md",
-    "README.md",
+    "Linux/Trash.md",
+    "Linux/Scraping Web Content.md",
+    "Linux/Linux.md",
+    "Linux/Gum for Shell Scripts.md",
+    "Linux/Emacs Shortcuts.md",
     "Linux/Clipboard.md",
-    "Frameworks.md",
-    "apps23.md"
+    "Linux/Git/Setup Git SSH.md",
+    "Linux/Git/Git.md",
+    "Linux/Git/Dotfiles (Soft Link).md"
   ]
 }
