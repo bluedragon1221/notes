@@ -9,6 +9,7 @@ GNU/Linux is an operating system similar to MacOS or Windows with one major diff
 %% Begin Waypoint %%
 - [[Arch Install Guide]]
 - [[Clipboard]]
+- [[Customizing ZSH]]
 - [[Emacs Shortcuts]]
 - **[[Git]]**
 - [[Gum for Shell Scripts]]

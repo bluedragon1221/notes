@@ -76,13 +76,8 @@
             "id": "fd09477b28b30a63",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Customizing ZSH.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -130,7 +125,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Customizing ZSH.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,9 +193,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Customizing ZSH.md"
-              }
+              "state": {}
             }
           },
           {
@@ -229,8 +221,9 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e15e7a318fff8ddd",
+  "active": "fd09477b28b30a63",
   "lastOpenFiles": [
+    "Customizing ZSH.md",
     "Linux/Arch Install Guide.md",
     "Linux/Trash.md",
     "Linux/Scraping Web Content.md",
@@ -239,7 +232,6 @@
     "Linux/Emacs Shortcuts.md",
     "Linux/Clipboard.md",
     "Linux/Git/Setup Git SSH.md",
-    "Linux/Git/Git.md",
-    "Linux/Git/Dotfiles (Soft Link).md"
+    "Linux/Git/Git.md"
   ]
 }
