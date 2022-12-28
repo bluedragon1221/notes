@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"649579c044a0d28a","x":-220,"y":-200,"width":200,"height":400,"color":"1","type":"group","label":"Open"},
+		{"id":"2a8528605aee10d6","x":0,"y":-200,"width":200,"height":400,"color":"2","type":"group","label":"New"},
+		{"id":"66292038ffa37933","x":-120,"y":-100,"width":200,"height":60,"type":"text","text":"What contents?"},
+		{"id":"e845385c80370f30","x":120,"y":-180,"width":220,"height":60,"type":"text","text":"What Search Query?"},
+		{"id":"6415ef1a1190413d","x":-120,"y":-180,"width":200,"height":60,"type":"text","text":"File Name + Location"},
+		{"id":"37c1afe5b89315d4","x":220,"y":-200,"width":220,"height":400,"color":"5","type":"group","label":"Search"},
+		{"id":"cbba7f56086f04b9","x":-120,"y":120,"width":460,"height":60,"type":"text","text":"What Vault?"}
+	],
+	"edges":[]
+}

@@ -5,5 +5,5 @@
   "folderNoteKey": "ctrl",
   "folderNoteAutoRename": true,
   "folderDelete2Note": false,
-  "folderNoteStrInit": "---\ntags: moc\n---\n\n# Description\n\n# Links\n%% Waypoint %%\n"
+  "folderNoteStrInit": "---\ntype: moc\n---\n\n# Description\n\n# Links\n%% Waypoint %%\n"
 }

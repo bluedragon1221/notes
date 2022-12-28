@@ -8,11 +8,11 @@
   "showViewHeader": true,
   "enabledCssSnippets": [
     "outline",
-    "dashboard",
     "dashboard-ReadLineLength",
     "animations",
     "hider",
     "external_link_hover",
-    "outline-style"
+    "outline-style",
+    "dashboard"
   ]
 }

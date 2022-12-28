@@ -27,7 +27,7 @@ PROMPT="%F{blue}%~%f %B%(?.%F{green}.%F{red})%f%b "
 
 [Here's a list](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html) of all prompt expansions.
 
-If this level of customization isn't enough, I'd checkout [starship](starship.rs).
+If this level of customization isn't enough, I'd checkout [starship](https://starship.rs).
 # Plugins
 ## Syntax Highlighting
 `zsh-syntax-highlighting` colors invalid commands red and underlines valid paths.

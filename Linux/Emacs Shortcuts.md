@@ -54,10 +54,11 @@ C-h v kill-ring
 C-x 0 to close the kill-ring window
 C-y Esc-y to cycle through kill-ring for paste
 
-## Buffers TODO
+## Buffers
 C-x b select another buffer
 C-x C-b list all buffers
 C-x k kill a buffer
+TODO: buffers
 
 ## Case change
 capitalize word:: M-c

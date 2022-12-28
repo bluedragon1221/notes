@@ -22,4 +22,4 @@ http://www.youtube.com/watch_videos?video_ids=UYm0kfnRTJk,MNeX4EGtR5Y,U3aXWizDbQ
 See? I just listed the video IDs in a specific format.
 Once you navigate to this URL in your browser, it will redirect to a shorter URL that you can share with other people.
 
-# TODO: Write a script
+TODO: Write a script
