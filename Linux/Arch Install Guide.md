@@ -2,10 +2,10 @@
 type: tutorial
 description: The best Arch installation tutorial
 ---
-## Connect to Wifi
+## Connect to WiFi
 This step is unnecessary to Ethernet users.
 
-Connect to wifi using `iwctl`.
+Connect to WiFi using `iwctl`.
 ```sh
 iwctl station wlan0 connect [SSID]
 ```
@@ -42,7 +42,7 @@ Finally, the boot partition. It uses the reserved 512MB at the start of the disk
 parted /dev/sda -- mkpart ESP fat32 1MB 512MB
 ```
 
-### Formating
+### Formatting
 I recommend that you assign a unique symbolic label to each partition. This makes it easier to reference each partition later on.
 
 For initializing Ext4 partitions, use `mkfs.ext4`. `-L` labels the partition.
@@ -136,7 +136,7 @@ hwclock --systohc
 ### Set Locale
 If this part is a bit confusing, here's a link to a video that explains it. [link](https://youtu.be/68z11VAYMS8?t=711)
 
-Edit `/etc/locale.gen`, Uncomment `en_US.UTF-8 UTF-8`.
+Edit `/etc/locale.gen`, uncomment `en_US.UTF-8 UTF-8`.
 ```sh
 ...
 #en_PH.UTF-8 UTF-8  

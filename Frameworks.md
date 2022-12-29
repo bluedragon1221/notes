@@ -17,5 +17,5 @@ TODO: source
 By not using a framework, I have full control of my system. I can easily find what scripts are being executed and what processes are happening. In something like React, you need to sift though the compiled JavaScript to know what your website is doing under the hood. With vanilla JavaScript, I know what 
 
 ## What I do instead
-Instead of using these paridigm-inducing frameworks, I revert to a more manual approach.
+Instead of using these paradigm-inducing frameworks, I revert to a more manual approach.
 This may mean importing cdn urls or cloning and sourcing git repositories, but I like the control it gives me over my system.

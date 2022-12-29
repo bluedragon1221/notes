@@ -16,7 +16,7 @@ Initialize a Git repo in the dotfiles directory.
 cd ~/dotfiles
 git init
 ```
-You can sync this repo to Github.
+You can sync this repo to GitHub.
 
 ## Adding Files
 Move the file into `~/dotfiles`, then create a soft link back to it's original location.

@@ -29,7 +29,7 @@ curl https://sive.rs/confab | html2text | glow -
 
 # Projects
 ## Pull Pictures from a Website
-Curl is used to fetch the whole website's html. Then find all `.jpg` links and download them with `wget`. `xargs` is used to "execute commands from standard input"
+Curl is used to fetch the whole website's HTML. Then find all `.jpg` links and download them with `wget`. `xargs` is used to "execute commands from standard input"
 ```sh
 curl https://wallhaven.cc | grep -o -e 'http[^"]*\.jpg' | xargs wget
 ```
@@ -50,7 +50,7 @@ wget "$(curl "$1" | grep -o -e 'http[^"]*\.jpg')"
 This builds on the tutorial
 
 ### Get a List of Links 
-1. Get the html of the blogs index site.
+1. Get the HTML of the blogs index site.
 2. Sort the lines that have `<li>` it them.
 3. Replace everything before `href='` with `https://`
 4. Replace everything after `>` with nothing

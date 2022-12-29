@@ -13,13 +13,15 @@
   "explorer": [],
   "hide": {
     "statusbar": [
-      "backlink",
-      "editor-status"
+      "backlink"
     ],
     "leftRibbon": [
       "Advanced Tables Toolbar",
       "Open quick switcher",
-      "Open command palette"
+      "Open command palette",
+      "Open in Headings Mode",
+      "Open Symbols for the active editor",
+      "Open homepage"
     ]
   },
   "spacing": "7",

@@ -1,5 +1,5 @@
 ---
-tags: GNUEmacs, flashcards
+tags: GNUEmacs
 type: list
 description: a list of basic shortcuts for `emacs`
 ---

@@ -18,4 +18,4 @@ rm() {
 }
 ```
 
-Todo: `rm -rf` override
+TODO: `rm -rf` override
