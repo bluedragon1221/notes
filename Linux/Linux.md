@@ -8,14 +8,13 @@ GNU/Linux is an operating system similar to MacOS or Windows with one major diff
 
 # Links
 %% Begin Waypoint %%
-- [[Arch Install Guide]]
+- **[[Arch Install]]**
 - [[Clipboard]]
 - [[Customizing ZSH]]
 - [[Emacs Shortcuts]]
 - **[[Git]]**
 - [[Gum for Shell Scripts]]
 - [[Scraping Web Content]]
-- [[Setup Pipewire]]
 - [[Trash]]
 
 %% End Waypoint %%

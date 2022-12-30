@@ -15,14 +15,17 @@ Before doing this, make sure your system uses UEFI. You can check by finding the
 ```sh
 [[ -d /sys/firmware/efi/efivars ]] && echo "UEFI" || echo "BIOS"
 ```
-If it returns `BIOS`, This guide won't work.
+If it returns `BIOS`, refer to [[Bios Partitioning|this guide]] for partitioning and formatting.
 
 This part is from the NixOS Manual on Partitioning and Formatting. [link](https://nixos.org/manual/nixos/stable/index.html#sec-installation-partitioning-formatting).
 
 ### Partitioning
 Now we will make the actual partitions. If you are uncomfortable with using `parted`, you can use `cfdisk` in the same way.
 
-Create a new GPT partition table (This will wipe your drive).
+#### Find the Right Drive
+Sometimes `/dev/sda` is not the drive you want to install to. On virtual machines it can be `/dev/vda`, and on newer systems it can be `/dev/nvme0n1`. To make sure you use the right drive, check with `lsblk`.
+
+Create a new GPT partition table (this will wipe your drive).
 ```sh
 parted /dev/sda -- mklabel gpt
 ```
@@ -45,7 +48,7 @@ parted /dev/sda -- mkpart ESP fat32 1MB 512MB
 ### Formatting
 I recommend that you assign a unique symbolic label to each partition. This makes it easier to reference each partition later on.
 
-For initializing Ext4 partitions, use `mkfs.ext4`. `-L` labels the partition.
+For creating ext4 partitions, use `mkfs.ext4`. `-L` labels the partition.
 ```sh
 mkfs.ext4 -L root /dev/sda1
 ```
@@ -94,10 +97,10 @@ reflector --protocol https \
 
 ### Install Essential Packages
 Now we will install the base system. We do this with the `pacstrap` command. This will take a long time depending on your internet connection. (hence why we updated the mirrors)
-
 ```sh
 pacstrap /mnt base linux linux-firmware
 ```
+
 You can add any other packages to this command. I generally add my text editor of choice, networking tools, and grub as well.
 ```sh
 pacstrap /mnt base linux linux-firmware \
@@ -105,6 +108,14 @@ pacstrap /mnt base linux linux-firmware \
               networkmanager \
 	          efibootmgr grub \
 ```
+
+#### Update `archlinux-keyring`
+If you had errors in the previous step, try updating the `archlinux-keyring`.
+```sh
+pacman -Sy archlinux-keyring
+```
+
+Then rerun the `pacstrap` command.
 
 ## Configuration
 Now we set up the system we created.
@@ -153,6 +164,12 @@ en_US.UTF-8 UTF-8
 ...
 ```
 
+If you installed `vim`, you can use this `vim` command.
+```vim
+:%s/#en_US.UTF-8/en_US.UTF-8
+:wq
+```
+
 Generate the locales by running: 
 ```sh
 locale-gen
@@ -177,11 +194,13 @@ passwd
 ```
 
 ### Setup Grub Boot Loader
-Use these commands to setup and install grub:
+These are the commands to setup and install grub on UEFI.
 ```sh
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
+On BIOS, 
 
 ## Create a User
 Assuming you don't want to use the root account the whole time, we need to setup a user.
