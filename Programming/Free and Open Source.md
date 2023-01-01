@@ -7,8 +7,6 @@ In the most general sense, the term "Free and Open Source" is used to describe s
 
 I believe that open source is a community where people can help each other write better code. [[#Perfection|perfect code]], in fact.
 
-nvidia driver situation
-wikipedia
 # Perfection
 In an open source environment, software trends to perfection. Take [Wikipedia](https://wikipedia.org), for example. Wikipedia is the most largest, detailed source of information in existence, but it gets a lot of flack for being editable by anyone. This article isn't meant to written in defense of Wikipedia, but I find it a great example.
 

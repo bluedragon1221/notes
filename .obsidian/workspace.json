@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b1e567052824bdb5",
+        "id": "3b7d6cd82a28d44c",
         "type": "tabs",
         "children": [
           {
-            "id": "6b5819ba6f2be3a9",
+            "id": "d94515bcb551e58d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Programming/Free and Open Source.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#GNUEmacs",
+                "query": "repo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "Programming/Free and Open Source.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -136,12 +136,20 @@
             }
           },
           {
-            "id": "04c1ef7d0d35c815",
+            "id": "9d3bba0b5618efde",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "99ebb14cd8aea515",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Programming/Free and Open Source.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,17 +159,8 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "9d3bba0b5618efde",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "9ba51da35bcd51f5",
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Programming/Free and Open Source.md"
               }
             }
           },
@@ -190,8 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 267.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,17 +203,17 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "6b5819ba6f2be3a9",
+  "active": "d94515bcb551e58d",
   "lastOpenFiles": [
-    "Linux/Arch Install/Bios Partitioning.md",
-    "Linux/Arch Install/Arch Install Guide.md",
-    "Linux/Arch Install/Arch Install.md",
-    "Linux/Linux.md",
-    "Setup Virtual Machines.md",
+    "Programming/Programming.md",
+    "README.md",
     "Home.md",
-    "Linux/Emacs Shortcuts.md",
-    "Linux/Git/Dotfiles (Home Repo).md",
-    "Programming/Obsidian Zenity Flowchart.canvas",
-    "README.md"
+    "Linux/Setup BSPWM.md",
+    "Linux/Linux.md",
+    "Linux/Arch Install/Arch Install.md",
+    "Linux/Arch Install/Fstab.md",
+    "Linux/Arch Install/Arch Install Guide.md",
+    "Linux/Arch Install/Create User.md",
+    "Linux/Arch Install/Change Hostname.md"
   ]
 }

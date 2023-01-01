@@ -19,9 +19,9 @@
       "Advanced Tables Toolbar",
       "Open quick switcher",
       "Open command palette",
-      "Open in Headings Mode",
       "Open Symbols for the active editor",
-      "Open homepage"
+      "Open homepage",
+      "Open in Headings Mode"
     ]
   },
   "spacing": "7",

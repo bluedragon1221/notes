@@ -45,12 +45,5 @@
       "key": "P"
     }
   ],
-  "darlal-switcher-plus:switcher-plus:open-editors": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "F"
-    }
-  ]
+  "darlal-switcher-plus:switcher-plus:open-editors": []
 }

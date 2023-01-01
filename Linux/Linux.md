@@ -15,6 +15,8 @@ GNU/Linux is an operating system similar to MacOS or Windows with one major diff
 - **[[Git]]**
 - [[Gum for Shell Scripts]]
 - [[Scraping Web Content]]
+- [[Setup BSPWM]]
+- [[Setup Pipewire]]
 - [[Trash]]
 
 %% End Waypoint %%
