@@ -6,10 +6,10 @@ cssclass: dashboard
 ### Tutorials
 ```dataview
 LIST
-WHERE type="tutorial"
+WHERE tags="tutorial"
 ```
 ### Writing
 ```dataview
 LIST
-WHERE type="writing"
+WHERE tags="writing"
 ```

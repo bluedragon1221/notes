@@ -8,10 +8,31 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "tag:#moc",
       "color": {
         "a": 1,
         "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#writing",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#tutorial",
+      "color": {
+        "a": 1,
+        "rgb": 5415904
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
@@ -25,6 +46,6 @@
   "repelStrength": 11.9270833333333,
   "linkStrength": 0.645833333333333,
   "linkDistance": 245,
-  "scale": 1.158197398134548,
-  "close": true
+  "scale": 0.6075679725835073,
+  "close": false
 }

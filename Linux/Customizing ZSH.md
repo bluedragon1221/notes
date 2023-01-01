@@ -1,5 +1,5 @@
 ---
-type: tutorial
+tags: tutorial
 description: Get the most out of your Z Shell
 ---
 I love `zsh`. It takes everything that bash does, and makes it 10x better; including customization.

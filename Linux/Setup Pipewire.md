@@ -1,5 +1,5 @@
 ---
-type: tutorial
+tags: tutorial
 description: Setup pipewire to enable audio
 ---
 # Installation

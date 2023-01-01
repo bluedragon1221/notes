@@ -1,5 +1,5 @@
 ---
-type: writing
+tags: writing
 description: But what is FOSS, exactly?
 ---
 # Free and Open Source Software

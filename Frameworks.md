@@ -1,5 +1,5 @@
 ---
-type: writing
+tags: writing
 description: Why I avoid frameworks
 ---
 I do not use a framework like OhMyZSH for `zsh`, or React for JavaScript.

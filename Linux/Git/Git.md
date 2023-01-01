@@ -1,5 +1,5 @@
 ---
-type: moc
+tags: moc
 ---
 
 # Description

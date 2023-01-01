@@ -1,4 +1,12 @@
-Now we will install the base system. We do this with the `pacstrap` command. This will take a long time depending on your internet connection. (hence why we [[Mirrors|updated mirrors]])
+The base of Arch Linux is installed using the `pacstrap` command. This will take a long time depending on your internet connection, so your should probably [[Update Mirrors with Reflector|update your mirrors]].
+
+## Update `archlinux-keyring`
+Depending on how outdated your Arch Linux ISO is, you may need to force update the `archlinux-keyring` before you `pacstrap`.
+```sh
+pacman -Sy archlinux-keyring
+```
+
+## Run `pacstrap`
 ```sh
 pacstrap /mnt base linux linux-firmware
 ```
@@ -10,10 +18,3 @@ pacstrap /mnt base linux linux-firmware \
               networkmanager \
 ```
 
-### Update `archlinux-keyring`
-If you had errors in the previous step, try updating the `archlinux-keyring`.
-```sh
-pacman -Sy archlinux-keyring
-```
-
-Then rerun the `pacstrap` command.

@@ -1,5 +1,5 @@
 ---
-type: tutorial
+tags: tutorial
 description: How to setup the best WM ever
 ---
 [BSPWM](https://github.com/baskerville/bspwm) stands for Binary Space Partitioning Window Manager, referring to its window splitting scheme.

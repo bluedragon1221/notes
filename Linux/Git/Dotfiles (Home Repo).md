@@ -1,6 +1,6 @@
 ---
 description: Setup dotfiles using a git repo in your `$HOME`
-type: tutorial
+tags: tutorial
 ---
 # Prerequisite
 [[Setup Git SSH]].

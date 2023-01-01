@@ -1,6 +1,6 @@
 ---
 description: Pulling web content using command line tools
-type: tutorial
+tags: tutorial
 ---
 
 # The Process

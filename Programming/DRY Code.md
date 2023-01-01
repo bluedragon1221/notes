@@ -1,5 +1,5 @@
 ---
-type: writing
+tags: writing
 description: Don't Repeat Yourself Don't Repeat Yourself
 ---
 # DRY Code

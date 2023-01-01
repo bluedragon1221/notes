@@ -1,7 +1,7 @@
 ---
 description: Make your shell scripts "glamorous" with `gum`
 tags: Linux
-type: tutorial
+tags: tutorial
 ---
 
 # Installing

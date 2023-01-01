@@ -1,6 +1,6 @@
 ---
 description: Create a YouTube playlist without an account
-type: tutorial
+tags: tutorial
 ---
 # Final Product
 A completely legitimate, shareable YouTube playlist with no account necessary.

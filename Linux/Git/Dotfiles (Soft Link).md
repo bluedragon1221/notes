@@ -1,6 +1,6 @@
 ---
 description: Setup a dotfiles directory using soft links
-type: tutorial
+tags: tutorial
 ---
 # Prerequisite
 [[Setup Git SSH]]

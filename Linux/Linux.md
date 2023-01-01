@@ -1,5 +1,5 @@
 ---
-type: moc
+tags: moc
 description: The OS that no one knows but everyone uses.
 ---
 
@@ -10,13 +10,19 @@ GNU/Linux is an operating system similar to MacOS or Windows with one major diff
 %% Begin Waypoint %%
 - **[[Arch Install]]**
 - [[Clipboard]]
+- [[Connect to Wifi]]
+- [[Create an Fstab File]]
+- [[Create EXT4 File System]]
 - [[Customizing ZSH]]
 - [[Emacs Shortcuts]]
 - **[[Git]]**
 - [[Gum for Shell Scripts]]
 - [[Scraping Web Content]]
+- [[Set Locale]]
+- [[Set Time]]
 - [[Setup BSPWM]]
 - [[Setup Pipewire]]
 - [[Trash]]
+- [[Update Mirrors with Reflector]]
 
 %% End Waypoint %%

@@ -1,6 +1,5 @@
 ---
-tags: GNUEmacs
-type: list
+tags: GNUEmacs, list
 description: a list of basic shortcuts for `emacs`
 ---
 

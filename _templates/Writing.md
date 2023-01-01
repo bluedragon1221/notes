@@ -1,6 +1,5 @@
 ---
-tags:
-type: writing
+tags: writing
 description: 
 ---
 # {{title}}

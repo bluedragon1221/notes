@@ -1,6 +1,6 @@
 ---
 description: Setup `git` and connect it to Github via SSH
-type: tutorial
+tags: tutorial
 ---
 # Prerequisite
 Install `git`.

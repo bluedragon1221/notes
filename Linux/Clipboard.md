@@ -1,7 +1,7 @@
 ---
 description: Interact with the clipboard using `xclip`
 tags: Linux
-type: tutorial
+tags: tutorial
 ---
 # Prerequisite
 Install `xclip`.
