@@ -11,7 +11,7 @@ Since they must account for every type of user, they come with many features tha
 
 ### Speed
 Because of the amount of bloat in these frameworks, they aren't very fast.
-TODO: source
+TODO: framework vs speed source
 
 ### Control
 By not using a framework, I have full control of my system. I can easily find what scripts are being executed and what processes are happening. In something like React, you need to sift though the compiled JavaScript to know what your website is doing under the hood. With vanilla JavaScript, I know what 

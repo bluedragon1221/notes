@@ -2,7 +2,6 @@
 description: Create a YouTube playlist without an account
 tags: tutorial
 ---
-# Final Product
 A completely legitimate, shareable YouTube playlist with no account necessary.
 
 # Get a Video ID

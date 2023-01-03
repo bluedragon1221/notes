@@ -6,10 +6,15 @@ cssclass: dashboard
 ### Tutorials
 ```dataview
 LIST
-WHERE tags="tutorial"
+FROM #tutorial
 ```
 ### Writing
 ```dataview
 LIST
-WHERE tags="writing"
+FROM #writing
+```
+### Maps of Content
+```dataview
+LIST
+FROM #moc
 ```

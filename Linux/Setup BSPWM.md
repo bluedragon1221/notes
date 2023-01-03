@@ -10,9 +10,9 @@ Install X server.
 sudo pacman -S xorg-server xorg-xinit
 ```
 
-Install `bspwm`,`sxhkd`, `polybar` and any other tools you will need.
+Install `bspwm`,`sxhkd`, a terminal emulator, and any other tools you use.
 ```sh
-sudo pacman -S bspwm sxhkd polybar alacritty
+sudo pacman -S bspwm sxhkd alacritty
 ```
 
 # Basic Configuration
@@ -42,4 +42,3 @@ exec bspwm
 ```
 
 Now run `startx`, and watch the magic! if you press `super` + `enter`, a full screen `alacritty` window will open.
-# Bonus

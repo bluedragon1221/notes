@@ -5,7 +5,7 @@ description: Get the most out of your Z Shell
 I love `zsh`. It takes everything that bash does, and makes it 10x better; including customization.
 
 # Installation
-* Install `zsh`.
+Install `zsh`
 Since I [[Frameworks|don't use frameworks]], this tutorial will use vanilla `zsh`.
 
 # Prompt
@@ -28,6 +28,7 @@ PROMPT="%F{blue}%~%f %B%(?.%F{green}.%F{red})%f%b "
 [Here's a list](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html) of all prompt expansions.
 
 If this level of customization isn't enough, I'd checkout [starship](https://starship.rs).
+
 # Plugins
 ## Syntax Highlighting
 `zsh-syntax-highlighting` colors invalid commands red and underlines valid paths.

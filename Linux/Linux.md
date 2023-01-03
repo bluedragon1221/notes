@@ -13,6 +13,7 @@ GNU/Linux is an operating system similar to MacOS or Windows with one major diff
 - [[Connect to Wifi]]
 - [[Create an Fstab File]]
 - [[Create EXT4 File System]]
+- [[Create User]]
 - [[Customizing ZSH]]
 - [[Emacs Shortcuts]]
 - **[[Git]]**
@@ -24,5 +25,6 @@ GNU/Linux is an operating system similar to MacOS or Windows with one major diff
 - [[Setup Pipewire]]
 - [[Trash]]
 - [[Update Mirrors with Reflector]]
+- [[Vim Hacks]]
 
 %% End Waypoint %%

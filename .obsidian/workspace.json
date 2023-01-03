@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f36c298dfdd62131",
+        "id": "90eaeade367d2af5",
         "type": "tabs",
         "children": [
           {
-            "id": "2254f335848dad33",
+            "id": "f933e1f688dd23df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Arch Install/Arch Install.md",
+                "file": "Linux/Vim Hacks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "type",
+                "query": "TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 260.5
   },
   "right": {
     "id": "ed8b122cf20272e0",
@@ -79,7 +79,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Arch Install/Arch Install.md",
+                "file": "Linux/Vim Hacks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -136,14 +136,32 @@
             }
           },
           {
-            "id": "9d3bba0b5618efde",
+            "id": "fbab2be0069454b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux/Vim Hacks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f50df9529daf51d7",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "9ba51da35bcd51f5",
@@ -156,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Arch Install/Arch Install.md"
+                "file": "Linux/Vim Hacks.md"
               }
             }
           },
@@ -172,31 +190,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 390.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "homepage:Open homepage": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "758707def6eb85a1",
+  "active": "f933e1f688dd23df",
   "lastOpenFiles": [
-    "Linux/Arch Install/Create User.md",
-    "Linux/Arch Install/Arch Install.md",
-    "Linux/Arch Install/Change Hostname.md",
-    "Linux/Set Locale.md",
-    "Linux/Set Time.md",
-    "Linux/Arch Install/Chroot.md",
-    "Linux/Create an Fstab File.md",
-    "Linux/Create EXT4 File System.md",
-    "Linux/Arch Install/Install Essential Packages.md",
-    "Linux/Update Mirrors with Reflector.md"
+    "Home.md",
+    "Helpful Commands.md",
+    "Linux/Vim Hacks.md",
+    "Youtube Playlist (with URL).md",
+    "Linux/Trash.md",
+    "Frameworks.md",
+    "README.md",
+    "Meta VC Map.canvas",
+    "Programming/Free and Open Source.md",
+    "Linux/Arch Install/Install Grub EFI.md"
   ]
 }

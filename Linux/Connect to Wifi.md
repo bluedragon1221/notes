@@ -1,6 +1,6 @@
 ---
 tags: tutorial
-description: Connect to wifi in Linux
+description: Connect to wifi on Linux
 ---
 # Installation
 Install `iwctl` or `networkmanager` with your distro's package manager.

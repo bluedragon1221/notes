@@ -1,3 +1,8 @@
+---
+tags: tutorial
+description: Create an fstab file using `genfstab`
+---
+
 # `genfstab`
 ## Installing
 * `genftsab` is installed by default in the Arch Linux live environment.

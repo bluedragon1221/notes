@@ -1,3 +1,7 @@
+---
+tags: tutorial
+description: Create a new user in Linux
+---
 Assuming you don't want to use the root account the whole time, here's how you create a user in Linux.
 
 # Setup `sudo`

@@ -22,7 +22,7 @@ Now we set up the system we created.
 	* [[Create User]]
 
 ## Post-Installation
-Here are some things you can do with your system after you install and reboot.
+Here are some things you can do with your system after your done.
 * [[Setup Pipewire]]
 * [[Setup BSPWM]]
 * [[Dotfiles (Soft Link)|Setup a Dotfiles Repository]]
@@ -33,8 +33,7 @@ Now you can reboot. Good Luck!
 %% Begin Waypoint %%
 - [[Change Hostname]]
 - [[Chroot]]
-- [[Create User]]
 - [[Install Essential Packages]]
-- [[Setup Grub Boot Loader]]
+- [[Install Grub EFI]]
 
 %% End Waypoint %%

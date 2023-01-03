@@ -1,3 +1,8 @@
+---
+type: tutorial
+description: Make a file system
+---
+
 Before doing this, make sure your system uses EFI. You can check by finding the `efivars` folder.
 ```sh
 [[ -d /sys/firmware/efi/efivars ]] && echo "EFI" || echo "BIOS"
