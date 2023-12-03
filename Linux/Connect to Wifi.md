@@ -21,6 +21,8 @@ iwctl station wlan0 connect [SSID]
 ### Password
 If your network has a password, it will prompt for it.
 
+> Note: `iwctl` doesn't play nice with captive portals, which are used when you sign into public wifi networks. If you are planning on using captive portals, use `nmcli`.
+
 ## `nmcli`
 ### Find SSID
 Find the name of your network. If you already know this, skip this step.

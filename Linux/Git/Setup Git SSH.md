@@ -32,7 +32,7 @@ Create an `ssh` key if it doesn't exist.
 [[ -f ~/.ssh/id_rsa.pub ]] || ssh-keygen -C $(git config --get user.email)
 ```
 
-Copy your public key to the [[Clipboard]].
+Copy your public key to the [[Linux Clipboard]].
 ```sh
 cat ~/.ssh/id_rsa.pub | xclip -sel c
 ```

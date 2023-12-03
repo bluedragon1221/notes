@@ -45,5 +45,14 @@
       "key": "P"
     }
   ],
-  "darlal-switcher-plus:switcher-plus:open-editors": []
+  "darlal-switcher-plus:switcher-plus:open-editors": [],
+  "obsidian-linter:lint-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ";"
+    }
+  ],
+  "markdown:add-metadata-property": []
 }

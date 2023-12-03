@@ -2,9 +2,9 @@
   "accentColor": "",
   "theme": "obsidian",
   "cssTheme": "Things",
-  "interfaceFontFamily": "Inter Nerd Font",
-  "textFontFamily": "Inter Nerd Font",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "interfaceFontFamily": "iA Writer Quattro V",
+  "textFontFamily": "iA Writer Quattro V",
+  "monospaceFontFamily": "iA Writer Mono V",
   "showViewHeader": true,
   "enabledCssSnippets": [
     "outline",
@@ -13,6 +13,7 @@
     "hider",
     "external_link_hover",
     "outline-style",
-    "dashboard"
+    "dashboard",
+    "logseq_outline"
   ]
 }

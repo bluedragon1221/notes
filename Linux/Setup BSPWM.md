@@ -27,13 +27,15 @@ cp {FILE FROM ABOVE} ~/.config/bspwm/bspwmrc
 ```
 
 ## Keyboard Shortcuts
-If we just start `bspwm` with that configuration, it will be unusable. We won't be able to control it. Enter `sxhkd`, the Simple X HotKey Daemon made by the creator of `bspwm`.
+If we just start `bspwm` with that configuration, it will be unusable. We won't be able to control it. Enter `sxhkd`, the **S**imple **X**11 **H**ot**K**ey **D**aemon made by the creator of `bspwm`.
 
 We'll make a file at `~/.config/sxhkd/sxhkdrc`. Edit the file with the following:
 ```sxhkdrc
 super + enter
  alacritty
 ```
+
+Now at least we can start a terminal!
 
 ## `.xinitrc`
 The way we start all of these programs is the `~/.xinitrc` file. This file will run with the command `startx`. Create `~/.xinitrc`, and edit it with the following:

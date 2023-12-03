@@ -7,17 +7,17 @@ description: The OS that no one knows but everyone uses.
 GNU/Linux is an operating system similar to MacOS or Windows with one major difference: it's [[Free and Open Source|open source]].
 
 # Links
-%% Begin Waypoint %%
+
 - **[[Arch Install]]**
-- [[Clipboard]]
+- [[Bootloader]]
 - [[Connect to Wifi]]
 - [[Create an Fstab File]]
-- [[Create EXT4 File System]]
 - [[Create User]]
 - [[Customizing ZSH]]
-- [[Emacs Shortcuts]]
 - **[[Git]]**
 - [[Gum for Shell Scripts]]
+- [[Linux Clipboard]]
+- [[Partition the Drive]]
 - [[Scraping Web Content]]
 - [[Set Locale]]
 - [[Set Time]]
@@ -26,5 +26,3 @@ GNU/Linux is an operating system similar to MacOS or Windows with one major diff
 - [[Trash]]
 - [[Update Mirrors with Reflector]]
 - [[Vim Hacks]]
-
-%% End Waypoint %%

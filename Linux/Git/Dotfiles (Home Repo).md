@@ -16,7 +16,7 @@ Create a `.gitignore` file with the following contents:
 ```gitignore
 *
 ```
-This makes all files and folders in the git repo ignored by default.
+This makes all files and directories in the git repo ignored by default.
 
 # Usage
 ## Adding Files

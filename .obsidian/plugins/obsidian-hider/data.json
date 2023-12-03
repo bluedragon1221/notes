@@ -3,11 +3,11 @@
   "hideStatus": false,
   "hideTabs": true,
   "hideScroll": true,
-  "hideSidebarButtons": false,
+  "hideSidebarButtons": true,
   "hideTooltips": false,
-  "hideSearchSuggestions": false,
+  "hideSearchSuggestions": true,
   "hideSearchCounts": false,
-  "hideInstructions": false,
+  "hideInstructions": true,
   "hideMeta": false,
-  "hideVault": false
+  "hideVault": true
 }

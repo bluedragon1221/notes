@@ -3,7 +3,6 @@ description: Make your shell scripts "glamorous" with `gum`
 tags: Linux
 tags: tutorial
 ---
-
 # Installing
 Arch:
 ```sh

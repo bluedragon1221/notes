@@ -4,13 +4,14 @@
   "homepage",
   "obsidian-spaced-repetition",
   "cmdr",
-  "folder-note-plugin",
-  "waypoint",
   "settings-search",
   "obsidian42-strange-new-worlds",
   "obsidian-hider",
   "text-snippets-obsidian",
   "obsidian-plugin-update-tracker",
   "templater-obsidian",
-  "darlal-switcher-plus"
+  "darlal-switcher-plus",
+  "zen",
+  "obsidian-style-settings",
+  "obsidian-linter"
 ]

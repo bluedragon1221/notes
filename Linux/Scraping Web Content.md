@@ -2,10 +2,9 @@
 description: Pulling web content using command line tools
 tags: tutorial
 ---
-
 # The Process
 Choose a website to steal, and get started!
-For this tutorial, I will use [This article](https://sive.rs/confab) from [sive.rs](https://sive.rs). 
+For this tutorial, I will use [this article](https://sive.rs/confab) from [sive.rs](https://sive.rs). 
 
 ## Download the HTML with `curl`
 ```sh
@@ -43,12 +42,11 @@ pics_dir="$(basename "$1")"
 [ "$pics_dir" ] && rm -rf "$pics_dir" 
 
 mkdir "$pics_dir"; cd "$pics_dir" || exit
-wget "$(curl "$1" | grep -o -e 'http[^"]*\.jpg')"
+curl "$1" | grep -o -e 'http[^"]*\.jpg' | xargs wget
 ```
 
 ## Pull All Articles from Website
 This builds on the tutorial
-
 ### Get a List of Links 
 1. Get the HTML of the blogs index site.
 2. Sort the lines that have `<li>` it them.
@@ -64,6 +62,12 @@ Loop through all links and pull them.
 
 ```sh
 for i in $(cat links.txt); do
-  curl $i | html2text > $(basename $i)
+  curl $i | html2text > $(basename $i) &
 done
+```
+
+`&` makes them all execute in parallel. Much faster!
+### Viewer Script
+```sh
+ls . | fzf | xargs glow -
 ```

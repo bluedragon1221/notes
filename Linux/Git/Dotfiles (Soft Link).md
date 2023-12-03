@@ -4,7 +4,6 @@ tags: tutorial
 ---
 # Prerequisite
 [[Setup Git SSH]]
-
 # Setup
 Create a new directory in your `$HOME`. Call it `dotfiles`.
 ```sh

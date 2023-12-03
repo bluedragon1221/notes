@@ -7,14 +7,14 @@ Recently, I deleted my whole notes directory and had to restore from a backup. I
 # Setup
 Create a directory that will serve as your trashcan.
 ```sh
-mkdir ~/.trash
+mkdir ~/.local/trash
 ```
 
 Create a bash function that will override the default `rm` command.
 ```sh
 ### ~/.zshrc ###
 rm() {
-	mv $1 ~/.trash/
+	mv $1 ~/.local/trash/
 }
 ```
 
