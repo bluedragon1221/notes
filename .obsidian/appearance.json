@@ -4,7 +4,7 @@
   "cssTheme": "Things",
   "interfaceFontFamily": "iA Writer Quattro V",
   "textFontFamily": "iA Writer Quattro V",
-  "monospaceFontFamily": "iA Writer Mono V",
+  "monospaceFontFamily": "iA Writer Mono V,EnvyCodeR Nerd Font Mono",
   "showViewHeader": true,
   "enabledCssSnippets": [
     "outline",

@@ -1,8 +1,10 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "showInlineTitle": true,
   "attachmentFolderPath": "_resources",
-  "vimMode": false
+  "vimMode": false,
+  "readableLineLength": true,
+  "rightToLeft": false
 }
