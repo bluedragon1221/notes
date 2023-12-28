@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Partition the Drive.md",
+                "file": "Linux/Bootloader.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Partition the Drive.md",
+                "file": "Linux/Bootloader.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Partition the Drive.md",
+                "file": "Linux/Bootloader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Partition the Drive.md"
+                "file": "Linux/Bootloader.md"
               }
             }
           },
@@ -221,14 +221,16 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "a7f0c4c8ca0abc6b",
+  "active": "973dedb91283ebbf",
   "lastOpenFiles": [
-    "Linux/Create User.md",
+    "Linux/Connect to Wifi.md",
+    "Linux/Bootloader.md",
     "Linux/Partition the Drive.md",
+    "Linux/Arch Install/Arch Install.md",
+    "Linux/Create User.md",
     "Linux/Arch Install/Install Essential Packages.md",
     "Linux/Arch Install/Chroot.md",
     "Linux/Arch Install/Change Hostname.md",
-    "Linux/Arch Install/Arch Install.md",
     "Programming/Free and Open Source.md",
     "Programming/DRY Code.md",
     "Frameworks.md",
@@ -236,7 +238,6 @@
     "Linux/Update Mirrors with Reflector.md",
     "Linux/Setups/\"Cloud Native\" Linux Desktop.md",
     "Linux/Setups",
-    "Linux/Partition the Drive.md",
     "Linux/Customizing ZSH.md",
     "Linux/Git/Dotfiles (Soft Link).md",
     "Linux/Git/Dotfiles (Home Repo).md",
@@ -249,7 +250,6 @@
     "Linux/Trash.md",
     "Linux/Setup Pipewire.md",
     "Linux/Setup BSPWM.md",
-    "Linux/Set Locale.md",
     "Meta VC Map.canvas",
     "Untitled.canvas",
     "Programming/Obsidian Zenity Flowchart.canvas"

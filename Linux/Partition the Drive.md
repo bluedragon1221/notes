@@ -1,10 +1,9 @@
+## Check for UEFI
 Before doing this, make sure your system uses EFI. You can check by finding the `efivars` folder.
-
 ```sh
 [[ -d /sys/firmware/efi/efivars ]] && echo "EFI" || echo "BIOS"
 ```
-
-If it returns `BIOS`, avoid the `EFI` sections of this guide.
+If it returns `BIOS`, don't use this guide.
 
 ## Find the Right Drive
 Sometimes `/dev/sda` is not the drive you want to install to. On virtual machines it can be `/dev/vda`, and on newer systems it can be `/dev/nvme0n1`. To make sure you use the right drive, check with `lsblk`.
