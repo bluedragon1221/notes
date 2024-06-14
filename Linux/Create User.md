@@ -52,6 +52,8 @@ homectl create USERNAME --shell=/bin/zsh --uid=1000 --member-of=wheel --real-nam
 ```
 
 > If you use [[Partition the Drive#BTRFS Root Partition|BTRFS for your root partition]], you can add `--storage=subvolume`, which will make your home directory a BTRFS subvolume.
+
+> Rootless podman containers are incompatible with systemd-homed. If you plan on using them AT ALL, it will not work!
 # Set User Password
 ```sh
 passwd USERNAME

@@ -2,7 +2,6 @@
 tags:
   - tutorial
 ---
-
 `systemd-boot` is the ultimate bootloader for Linux. It boots your system, and nothing else.
 
 > [!note]

@@ -13,7 +13,8 @@
   "explorer": [],
   "hide": {
     "statusbar": [
-      "backlink"
+      "backlink",
+      "editor-status"
     ],
     "leftRibbon": [
       "Advanced Tables Toolbar",

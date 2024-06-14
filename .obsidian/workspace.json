@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bootloader.md",
+                "file": "Linux/Zinit.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,16 +65,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "7393347f987d6777",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "com.maxymillion.zen",
-              "state": {},
-              "pinned": true
-            }
           }
         ]
       }
@@ -97,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linux/Bootloader.md",
+                "file": "Linux/Zinit.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Bootloader.md",
+                "file": "Linux/Zinit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,14 +158,6 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "8b2e8da822d35c85",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
             }
           }
         ]
@@ -191,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Bootloader.md"
+                "file": "Linux/Zinit.md"
               }
             }
           },
@@ -213,45 +195,42 @@
     "hiddenItems": {
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "homepage:Open homepage": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "templater-obsidian:Templater": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "homepage:Open homepage": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "973dedb91283ebbf",
   "lastOpenFiles": [
+    "Linux/Set Locale.md",
+    "Linux/Setup BSPWM.md",
+    "Linux/Setup Pipewire.md",
+    "Linux/Trash.md",
+    "Linux/Update Mirrors with Reflector.md",
+    "Linux/Vim Hacks.md",
+    "Linux/Create User.md",
+    "Linux/Create an Fstab File.md",
     "Linux/Connect to Wifi.md",
     "Linux/Bootloader.md",
-    "Linux/Partition the Drive.md",
+    "Linux/Git/Dotfiles (Home Repo).md",
+    "Linux/Git/Git.md",
+    "Home.md",
     "Linux/Arch Install/Arch Install.md",
-    "Linux/Create User.md",
+    "Programming/DRY Code.md",
+    "Helpful Commands.md",
+    "Youtube Playlist (with URL).md",
+    "Meta VC Map.canvas",
+    "Linux/Zinit.md",
+    "Untitled.canvas",
+    "Linux/Customizing ZSH.md",
+    "Linux/Linux.md",
+    "Linux/Partition the Drive.md",
     "Linux/Arch Install/Install Essential Packages.md",
     "Linux/Arch Install/Chroot.md",
     "Linux/Arch Install/Change Hostname.md",
     "Programming/Free and Open Source.md",
-    "Programming/DRY Code.md",
     "Frameworks.md",
-    "Helpful Commands.md",
-    "Linux/Update Mirrors with Reflector.md",
-    "Linux/Setups/\"Cloud Native\" Linux Desktop.md",
     "Linux/Setups",
-    "Linux/Customizing ZSH.md",
-    "Linux/Git/Dotfiles (Soft Link).md",
-    "Linux/Git/Dotfiles (Home Repo).md",
-    "Programming/Programming.md",
-    "Linux/Linux.md",
-    "Linux/Git/Setup Git SSH.md",
-    "Linux/Git/Git.md",
-    "Linux/ZSH Plugin Management.md",
-    "Linux/Vim Hacks.md",
-    "Linux/Trash.md",
-    "Linux/Setup Pipewire.md",
-    "Linux/Setup BSPWM.md",
-    "Meta VC Map.canvas",
-    "Untitled.canvas",
     "Programming/Obsidian Zenity Flowchart.canvas"
   ]
 }

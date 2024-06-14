@@ -1,10 +1,9 @@
-
 # Set Locale
 ## `Locale-gen`
 If this part is a bit confusing, here's a video that explains it. [link](https://youtu.be/68z11VAYMS8?t=711)
 
 Edit `/etc/locale.gen`, uncomment `en_US.UTF-8 UTF-8`.
-```sh
+```txt
 ... 
 #en_SC.UTF-8 UTF-8  
 #en_SG.UTF-8 UTF-8  
@@ -19,6 +18,12 @@ en_US.UTF-8 UTF-8
 If you installed `vim`, you can use these `vim` commands.
 ```vim
 :%s/#en_US.UTF-8/en_US.UTF-8
+:wq
+```
+
+Or for helix:
+```
+%s#en_US.UTF-8<RET>cen_us.UTF-8
 :wq
 ```
 
