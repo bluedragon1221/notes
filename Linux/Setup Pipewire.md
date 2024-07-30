@@ -17,3 +17,21 @@ And reboot.
 ```sh
 reboot
 ```
+
+Now you can use `pamixer` to control the volume:
+```sh
+# increase volume
+pamixer -i 10
+
+# decrease volume
+pamixer -d 10
+
+# get volume
+pamixer --get-volume
+
+# toggle mute
+pamixer -t
+
+# get mute
+pamixer --get-mute
+```
